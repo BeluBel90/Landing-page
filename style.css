@@ -1,0 +1,11 @@
+html{
+    background-color: #E6E6FA;
+
+}
+
+#header{
+    height:8em;
+    background: #FFF5FB url("images/logo.jpg") no-repeat ;
+    background-size: contain;
+    margin-top: 0;
+}
