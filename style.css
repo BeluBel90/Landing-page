@@ -5,6 +5,7 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;}
+
 #header{
     display:flex;
     background-color:#f7fbfc; 
@@ -12,6 +13,7 @@ html{
     border-bottom:5px solid #c4048d;
     position: fixed;
     top: 0;
+
     left: 0;}
 #logo{
    height:7.5em;
@@ -20,6 +22,7 @@ html{
 #img-logo{
     width:8em;
     height: 7.5em;}
+
 ul{display: none;
     position: absolute;
     top: 4.2em;
@@ -27,6 +30,7 @@ ul{display: none;
     width:80%;
     text-align: center;
     font-size: 1.5em;
+
     height: 1.5em;}
 input:checked ~ul{display: block;}
 input{display: none;}
@@ -34,18 +38,21 @@ label{
     border: 2px solid #c4048d;
     border-radius: 0.2em;
     padding:0.2em;}
+
 nav{
     width: 70%;
     display: flex;
     align-self:center;
     justify-content:end;
     margin-right: 1em;}
+
 li{
     display: block;
     background-color: #fdf7e6;
     list-style: none;
     line-height: 30px;
     padding:15%;}
+
 
 a{text-decoration: none;}
 li:hover{background-color: #e9e1ca}
