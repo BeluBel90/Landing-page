@@ -123,6 +123,14 @@ h2{
       
         
     }
+    .product-div{
+        border: 2px solid red;
+        width: 204px;
+        margin: 0 auto;
+    }
     .products{
-        width: 100%;
+        width: 200px;
+        margin:0 auto;
+        height: 285px;
+        border: 2px solid green;
     }
