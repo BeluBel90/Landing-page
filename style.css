@@ -117,12 +117,12 @@ h2{
         margin: 4em 0.17em;
     }
     #shop{
-        width: 95%;
-        margin:auto;
-        padding:0 5%;
+        display: flex;
+        flex-wrap:wrap;
+        border: 3px solid blue;
+      
+        
     }
     .products{
-        width:200px;
-        margin:auto;
-        height:280px;
+        width: 100%;
     }
