@@ -1,6 +1,6 @@
 html{
     background-color:#f7fbfc;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
    /* margin: 0;}
 */}
 
@@ -119,18 +119,47 @@ h2{
     #shop{
         display: flex;
         flex-wrap:wrap;
-        border: 3px solid blue;
       
         
     }
     .product-div{
-        border: 2px solid red;
+        border-bottom:2px solid #c4048d;
         width: 204px;
         margin: 0 auto;
+        
     }
     .products{
         width: 200px;
         margin:0 auto;
         height: 285px;
-        border: 2px solid green;
     }
+    .description{
+        font-weight: lighter;
+        text-transform: uppercase;
+        padding-left: 0.3em;
+        margin-bottom: 0.5em;
+    }
+     .button-div{
+        width: 206px;
+        margin: 0 auto;
+        margin-bottom: 4em;
+     }
+
+     span.price{
+       font-weight: bold;
+       padding-left: 0.5em;
+     }
+     button{
+         margin:0.5em 0 1em;
+         padding: 0.4em 0;
+         width:100% ;
+         font-size: 16px;
+         color: white;
+         background-color: #0e0d0d;
+         border: 1px solid #c4048d;
+     }
+     span.material-symbols-rounded#shopping-cart{
+         font-size: 15px;
+         text-align: left;
+         margin-right: 0.3em;
+     }
